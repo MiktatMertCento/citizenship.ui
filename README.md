@@ -94,9 +94,3 @@ src/
 ## 📝 Lisans
 
 Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır.
-
-## 📧 İletişim
-
-Proje Sahibi - [@kullaniciadi](https://github.com/kullaniciadi)
-
-Proje Linki: [https://github.com/kullaniciadi/citizenship.ui](https://github.com/kullaniciadi/citizenship.ui) 
