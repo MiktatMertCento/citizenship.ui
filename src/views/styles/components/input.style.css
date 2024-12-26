@@ -1,0 +1,20 @@
+
+/*
+if class not equal ag-input-field-input ag-text-field-input
+ */
+
+input {
+    @apply border-2 rounded h-10 pl-2 !important;
+}
+
+input:focus {
+    @apply border-blue-500 !important;
+}
+
+input:disabled {
+    @apply bg-gray-200 !important;
+}
+
+input .ag-input-field-input, .ag-text-field-input {
+    @apply h-6 !important;
+}
