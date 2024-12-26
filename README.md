@@ -1,47 +1,47 @@
 # Citizenship.UI
 
-Bu proje, vatandaşlık bilgilerini sorgulama ve yönetme amaçlı bir web uygulamasıdır.
+This project is a web application for querying and managing citizenship information.
 
-## 🚀 Özellikler
+## 🚀 Features
 
-- Vatandaş Sorgulama
-- Adres Sorgulama
-- SMS Gönderimi
-- Kullanıcı Yönetimi
-- JWT Tabanlı Kimlik Doğrulama
+- Citizen Query
+- Address Query
+- SMS Sending
+- User Management
+- JWT Based Authentication
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
 - **Frontend Framework**: React 18
-- **Tip Güvenliği**: TypeScript
-- **Durum Yönetimi**: Recoil
-- **UI Kütüphanesi**: Chakra UI
-- **Tablo Bileşeni**: AG Grid
-- **HTTP İstemcisi**: Axios
-- **Stil**: Tailwind CSS
-- **Geliştirme Ortamı**: Vite
-- **Yönlendirme**: React Router
-- **Bildirimler**: React Toastify
+- **Type Safety**: TypeScript
+- **State Management**: Recoil
+- **UI Library**: Chakra UI
+- **Table Component**: AG Grid
+- **HTTP Client**: Axios
+- **Styling**: Tailwind CSS
+- **Development Environment**: Vite
+- **Routing**: React Router
+- **Notifications**: React Toastify
 
-## 📦 Kurulum
+## 📦 Installation
 
-1. Projeyi klonlayın:
+1. Clone the project:
 ```bash
-git clone https://github.com/kullaniciadi/citizenship.ui.git
+git clone https://github.com/username/citizenship.ui.git
 cd citizenship.ui
 ```
 
-2. Gerekli paketleri yükleyin:
+2. Install required packages:
 ```bash
 npm install --legacy-peer-deps
 ```
 
-3. `.env` dosyasını oluşturun:
+3. Create `.env` file:
 ```bash
 cp .env.example .env
 ```
 
-4. `.env` dosyasını düzenleyin ve gerekli değişkenleri ayarlayın:
+4. Edit `.env` file and set the required variables:
 ```env
 VITE_API_BASE_URL=https://api.example.com
 VITE_SMS_API_URL=https://sms-api.example.com
@@ -49,54 +49,54 @@ VITE_API_PORT=443
 VITE_DEV_PORT=9876
 ```
 
-5. Uygulamayı başlatın:
+5. Start the application:
 ```bash
 npm run dev
 ```
 
-## 🚀 Dağıtım
+## 🚀 Deployment
 
-Projeyi derlemek için:
+To build the project:
 ```bash
 npm run build
 ```
 
-Derlenen dosyalar `dist` klasöründe oluşturulacaktır.
+The compiled files will be created in the `dist` folder.
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 src/
-├── controllers/     # API istekleri
-├── models/         # Tip tanımlamaları
-├── recoil/         # Durum yönetimi
-├── utils/          # Yardımcı fonksiyonlar
-└── views/          # UI bileşenleri
-    ├── pages/      # Sayfa bileşenleri
-    └── components/ # Genel bileşenler
+├── controllers/     # API requests
+├── models/         # Type definitions
+├── recoil/         # State management
+├── utils/          # Helper functions
+└── views/          # UI components
+    ├── pages/      # Page components
+    └── components/ # General components
 ```
 
-## 🔒 Güvenlik
+## 🔒 Security
 
-- JWT token'ları localStorage'da saklanır
-- API istekleri için HTTPS kullanılır
-- Hassas bilgiler .env dosyasında tutulur
-- Rate limiting uygulanır
+- JWT tokens are stored in localStorage
+- HTTPS is used for API requests
+- Sensitive information is kept in .env file
+- Rate limiting is applied
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-1. Bu depoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'feat: add amazing feature'`)
-4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
-5. Bir Pull Request oluşturun
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push your branch (`git push origin feature/amazing-feature`)
+5. Create a Pull Request
 
-## 📝 Lisans
+## 📝 License
 
-Bu proje [MIT](LICENSE) lisansı altında lisanslanmıştır.
+This project is licensed under the [MIT](LICENSE) License.
 
-## 📧 İletişim
+## 📧 Contact
 
-Proje Sahibi - [@kullaniciadi](https://github.com/kullaniciadi)
+Project Owner - [@username](https://github.com/username)
 
-Proje Linki: [https://github.com/kullaniciadi/citizenship.ui](https://github.com/kullaniciadi/citizenship.ui) 
+Project Link: [https://github.com/username/citizenship.ui](https://github.com/username/citizenship.ui) 
